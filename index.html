@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!--Nav menu-->
+    <div class="nav-menu">
+        <ul>
+            <a href="index.html">MPC</a>
+            <a href="Login.html"> <i class="material-icons">person</i></a> 
+                    
+        </ul>
+    </div>
+    <!--side bar left-->
+    <div class="sidebar-left">
+        <div class="search-box">
+            <i class="material-icons">search</i>
+            <input type="text" placeholder="Search..." class="">
+        </div>
+        <hr>
+        <ul>
+            <li> <i class="material-icons">home</i><a>Home</a></li>
+            <li> <i class="material-icons">message</i><a> Messenger</a></li>
+            <li><i class="material-icons">notifications</i><a>Notifications</a></li>
+        </ul>
+        <hr>
+        <ul>
+            <li><i class="material-icons">home</i> Friends</li>
+            <li><i class="material-icons">save</i> Saved</li>
+            <li><i class="material-icons">videogame_asset</i> Games</li>
+            <li><i class="material-icons">group</i> Group</li>
+            <li><i class="material-icons">favorite</i> Favorite</li>
+        </ul>
+        <hr>
+        <a style="text-align: center"> Switch Light mode/Dark mode</a>
+        <label class="switch">
+            <input onclick="myFunction()" type="checkbox" checked />
+            <span class="slider round"></span>
+        </label>
+    </div>
+    <div id="main">
+        <div id="create-post">
+            <div id="post-icon">
+            </div>
+            <div id="post-text">
+
+
+            </div>
+            <div id="post-button"></div>
+        </div>
+        <div id="post-container">
+            <div class="create-post">
+                <div class="post-info">
+                    <div class="post-icon">
+                        <i class="material-icons">person</i>
+                    </div>
+                    <div class="post-user">
+                        <div class="post-name">
+                            <a>John Doe</a>
+                        </div>
+                        <div class="post-date">
+                            <a>20/3</a>
+                            <i class="material-icons" style="font-size: 13px">public</i>
+                        </div>
+                    </div>
+                </div>
+                <textarea row="3" placeholder="What's on your mind?..."></textarea>
+                <div class="add-post-link">
+
+                    <a href="#"> <i class="material-icons">perm_media</i> Media</a>
+                    <a href="#"> <i class="material-icons">personal_video</i>Live stream</a>
+                    <a href="#"> <i class="material-icons">insert_emoticon</i>Feeling</a>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-info">
+                    <div class="post-icon">
+                        <i class="material-icons">person</i>
+                    </div>
+                    <div class="post-user">
+                        <div class="post-name">
+                            <a>John Doe</a>
+                        </div>
+                        <div class="post-date">
+                            <a>20/3</a>
+                            <i class="material-icons" style="font-size: 13px">public</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-content">
+                    Hê lô guy
+                </div>
+                <div class="activiy">
+                    <i onclick="Functionc(this)" id="activity" class="material-icons">favorite_border</i>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-info">
+                    <div class="post-icon">
+                        <i class="material-icons">person</i>
+                    </div>
+                    <div class="post-user">
+                        <div class="post-name">
+                            <a>John Doe</a>
+                        </div>
+                        <div class="post-date">
+                            <a>20/3</a>
+                            <i class="material-icons" style="font-size: 13px">public</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam feugiat augue orci, vel facilisis
+                    lectus condimentum vel. Curabitur non blandit justo. In in nisi ornare, tristique eros id
+                </div>
+                <div class="activiy">
+                    <i onclick="Functionc(this)" id="activity" class="material-icons">favorite_border</i>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-info">
+                    <div class="post-icon">
+                        <i class="material-icons">person</i>
+                    </div>
+                    <div class="post-user">
+                        <div class="post-name">
+                            <a>John Doe</a>
+                        </div>
+                        <div class="post-date">
+                            <a>20/3</a>
+                            <i class="material-icons" style="font-size: 13px">public</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam feugiat augue orci, vel facilisis
+                    lectus condimentum vel. Curabitur non blandit justo. In in nisi ornare, tristique eros id
+                </div>
+                <div class="activiy">
+                    <i onclick="Functionc(this)" id="activity" class="material-icons">favorite_border</i>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-info">
+                    <div class="post-icon">
+                        <i class="material-icons">person</i>
+                    </div>
+                    <div class="post-user">
+                        <div class="post-name">
+                            <a>John Doe</a>
+                        </div>
+                        <div class="post-date">
+                            <a>20/3</a>
+                            <i class="material-icons" style="font-size: 13px">public</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam feugiat augue orci, vel facilisis
+                    lectus condimentum vel. Curabitur non blandit justo. In in nisi ornare, tristique eros id
+                </div>
+                <div class="activiy">
+                    <i onclick="Functionc(this)" id="activity" class="material-icons">favorite_border</i>
+                </div>
+            </div>
+            <div class="post">
+                <div class="post-info">
+                    <div class="post-icon">
+                        <i class="material-icons">person</i>
+                    </div>
+                    <div class="post-user">
+                        <div class="post-name">
+                            <a>John Doe</a>
+                        </div>
+                        <div class="post-date">
+                            <a>20/3</a>
+                            <i class="material-icons" style="font-size: 13px">public</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-content">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam feugiat augue orci, vel facilisis
+                    lectus condimentum vel. Curabitur non blandit justo. In in nisi ornare, tristique eros id
+                </div>
+                <div class="activiy">
+                    <i onclick="Functionc()" id="activity" class="material-icons">favorite_border</i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--side bar right-->
+    <div class="sidebar-right">
+        <ul>
+            <li>
+                <h1>Online users</h1>
+            </li>
+            <hr>
+            <li>
+                <a><i class="material-icons">person</i> <span class="user"> User 1</span></a>
+            </li>
+            <li>
+                <a><i class="material-icons">person</i><span class="user"> User 2</span></a>
+            </li>
+            <li>
+                <a><i class="material-icons">person</i><span class="user"> User 3</span></a>
+            </li>
+            <li>
+                <a><i class="material-icons">person</i><span class="user"> User 4</span></a>
+            </li>
+            <li>
+                <a><i class="material-icons">person</i><span class="user"> User 5</span></a>
+            </li>
+
+            <li>
+                <h1>Online Group</h1>
+            </li>
+            <hr>
+            <li>
+                <a><i class="material-icons">group</i><span class="group"> Group 1</span></a>
+            </li>
+            <li>
+                <a><i class="material-icons">group</i><span class="group"> Group 2</span></a>
+            </li>
+            <li>
+                <a><i class="material-icons">group</i><span class="group"> Group 3</span></a>
+            </li>
+            <li>
+                <a><i class="material-icons">group</i><span class="group"> Group 4</span></a>
+            </li>
+        </ul>
+    </div>
+    <footer>
+        <div class="footer">
+            <h1>GoodLuck!</h1>
+        </div>
+    </footer>
+    <script src="script.js"></script
+  </body>
+</html>

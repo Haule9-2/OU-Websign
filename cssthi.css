@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+
+    padding: 0px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    list-style: none;
+}
+a{
+    text-decoration: none;
+
+    color: black;
+}
+
+body{
+    background-color: aliceblue;
+}
+.header{
+    text-align: center;
+
+    font-size: 30px;
+
+    margin-top: 70px;
+
+    margin-bottom: 50px;
+
+}
+
+.flex{
+    display: flex;
+
+    position: relative;
+}
+.border1{
+    background-color: black;
+
+    display: flex;
+
+    width: 350px;
+
+    height: 350px;
+
+    margin-left: 250px;
+
+    margin-top: 30px;
+
+    position: absolute;
+
+    opacity: 0.9;
+
+    border-radius: 10px;
+
+    transition: ease 0.8s;
+
+
+
+}
+
+.border1.move2{
+    margin-left: 600px;
+
+    transition: ease 0.9s;
+
+    background-color: black;
+
+    opacity: 0.9;
+}
+
+.content{
+    background: white;
+
+    border-radius: 15px;
+
+    display: flex;
+
+    justify-content:space-around;
+
+    justify-items: center;
+
+    width: 650px;
+
+    height: 320px;
+
+    line-height: 35px;
+
+    text-align: center;
+
+    margin-top: 50px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+}
+.index1:hover,.index2:hover{
+    text-decoration: underline;
+}
+
+input{
+    padding: 5px;
+
+    border-radius: 3px;
+    
+    border: none;
+
+    width: 220px;
+}
+li{
+    padding: 5px;
+}
+.conform{
+    
+    background-color:purple;
+
+    border-radius: 120px;
+
+    line-height: 40px;
+
+    width: 80px;
+
+    height: 40px;
+
+    margin-left: auto;
+
+    margin-right: auto;
+
+}
+button{
+    background-color:aqua;
+
+    color: white;
+
+    border: none ;
+
+    width: 80px;
+
+    height: 40px;
+    
+    line-height: 40px;
+
+    border-radius: 120px;
+    
+    margin-left: auto;
+
+    margin-right: auto;
+}
+button:hover{
+    background-color: blueviolet;
+
+    transition:ease 0.8s;
+}
+.conform:hover{
+    background:blueviolet;
+}
+.SignUp:hover,.SignIn:hover{
+     text-decoration: underline;
+}
+
